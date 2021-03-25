@@ -1,0 +1,125 @@
+/* GEral */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #63707E, 100%;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #DA0D5E;
+}
+
+#navbar-links a {
+    color: #888888;
+}
+
+#navbar-links a.active {
+    color: #DA0D5E;
+}
+
+#navbar-links a:hover:not(.active){
+    color: #333333;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+/* Corpo */
+
+.jumbotron {
+    text-align: center;
+    color: #63707E;
+    background-color: white;
+    margin: 0;
+}
+
+hr {
+    background-color: #DA0D5E;
+}
+
+/* slide */
+.carousel-control-prev > span{
+    background-color: #DA0D5E;
+}
+
+.carousel-control-next > span{
+    background-color: #DA0D5E;
+}
+
+/* Footer */
+
+footer{
+    background-color: #DA0D5E;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+    color: black;
+}
+li{
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.social{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social> li> a> img {
+    width: 20px;
+    margin: 10px;
+}
+
+/* corpo projetos */
+.col-sm-4 {
+    text-align: center;
+    border: 1px solid #DA0D5E;
+    color: #63707E;
+}
+
+.col-sm-4 > img {
+    width: 100%;
+}
